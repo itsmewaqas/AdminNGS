@@ -18,7 +18,6 @@ const getLengthSlice = createSlice({
     }
 });
 
-console.log(getLengthSlice.actions);
 export default getLengthSlice.reducer;
 export const { setLength } = getLengthSlice.actions;
 

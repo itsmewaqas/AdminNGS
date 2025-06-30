@@ -16,7 +16,6 @@ interface IState {
 const InnerDashboard: React.FC = (props) => {
 
   const length = useSelector((state: RootState) => state.getLengthSlice.getLength);
-  // console.log('get length', length);
 
   const [showMenu, SetShowMenu] = useState<IState>({ ctrlMenu: 'hide' });
 
