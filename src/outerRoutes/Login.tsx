@@ -50,7 +50,7 @@ function Login() {
                   type="text"
                   name="email"
                   value={values.email}
-                  placeholder="name@example.com"
+                  placeholder="Please enter a valid email address in the format: name@example.com"
                   onChange={handleChange}
                 />
                 {errors.email && <p className='error'>{errors.email}</p>}
@@ -61,7 +61,7 @@ function Login() {
                   type="password"
                   name="password"
                   value={values.password}
-                  placeholder="***********"
+                  placeholder="Please enter a valid password, such as 12345678"
                   onChange={handleChange}
                 />
                 {errors.password && <p className='error'>{errors.password}</p>}
